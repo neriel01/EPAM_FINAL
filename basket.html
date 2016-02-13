@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>basket</title>
+    <script src="js/common/jquery.js"></script>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/css-table.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet' type='text/css'>
+    <script src="js/search.js"></script>
+</head>
+<body>
+<div class="main-wrapper">
+    <div class="main-container">
+        <div class="content-container">
+            <header class="clearfix">       <!--HEADER BEGIN-->
+                <div class="header-lft lft">
+                    <div class="logo">SH</div>
+                    <nav class="header-navigation">
+                        <ul>
+                            <li><a href="">Woman</a></li>
+                            <li><a href="">Men</a></li>
+                            <li><a href="">Kids</a></li>
+                            <li><a href="">Coming soon</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-rght rght">
+                    <div class="search-container">
+                        <form action="">
+                            <input type="search" id="search-field" required placeholder="Search something..."><input type="submit" name="submit-search"  id="submit-search" value=" ">
+                        </form>
+                    </div>
+                    <div class="basket-image-container">
+                        <div class="basket-image"></div>
+                        <span>Basket</span>
+                        <span id="basket-counter">(0)</span>
+                    </div>
+
+                </div>
+            </header> <!--HEADER END-->
+             <span class="breadcrumb-text-top"><a href="">HOME</a>&nbsp;&nbsp;/&nbsp;&nbsp; <a href="">MEN</a>&nbsp;&nbsp;/&nbsp;&nbsp; <a
+                     href="">SHOES</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a href="">FLORAL PLIMSOL</a></span>
+            <h2 class="basket-header">YOUR SHOPPING BAG</h2>
+            <div class="subheader-h2">Items reserved for limited time only</div>
+            <div class="table">
+                <div class="row">
+                    <div class="cell cell-1">PRODUCT</div>
+                    <div class="cell">DESCRIPTION</div>
+                    <div class="cell cell-3">COLOR</div>
+                    <div class="cell cell-4">SIZE</div>
+                    <div class="cell cell-5">QTY</div>
+                    <div class="cell cell-6">AMOUNT</div>
+                    <div class="cell cell-7">DELETE</div>
+                </div>
+                <div class="row">
+                    <div class="cell cell-1">
+                        <div class="basket-product-image"><img src="" alt="" id="basket-product-image"></div>
+                    </div>
+                    <div class="cell">
+                        <h3>FLORAL PLIMSOL</h3>
+                        <p class="basket-product-ref">Ref. 8246/044</p>
+                    </div>
+                    <div class="cell cell-3">
+                        <p id="basket-product-color-1">Black</p>
+                    </div>
+                    <div class="cell cell-4">
+                       <p id="basket-product-size-1">M</p>
+                    </div>
+                    <div class="cell cell-5">
+                        <input type="number" min="0" max="999" step="1" id="basket-product-quantity-1" value="1">
+                    </div>
+                    <div class="cell cell-6">
+                        <p><span>&euro;</span><span id="basket-product-amount-1">99,99</span></p>
+                    </div>
+                    <div class="cell cell-7 delete-btn">
+                        <img src="img/delete-btn.jpg" alt="delete-bnt" height="14" width="14">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell cell-1">
+                        <div class="basket-product-image"><img src="" alt="" id="basket-product-image-1"></div>
+                    </div>
+                    <div class="cell">
+                        <h3>FLORAL PLIMSOL</h3>
+                        <p class="basket-product-ref">Ref. 8246/044</p>
+                    </div>
+                    <div class="cell cell-3">
+                        <p id="basket-product-color-2">Black</p>
+                    </div>
+                    <div class="cell cell-4">
+                        <p id="basket-product-size-2">M</p>
+                    </div>
+                    <div class="cell cell-5">
+                        <input type="number" min="0" max="999" step="1" id="basket-product-quantity-2" value="1">
+                    </div>
+                    <div class="cell cell-6">
+                        <p><span>&euro;</span><span id="basket-product-amount-2">99,99</span></p>
+                    </div>
+                    <div class="cell cell-7 delete-btn">
+                        <img src="img/delete-btn.jpg" alt="delete-bnt" height="14" width="14">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell cell-1">
+                        <div class="basket-product-image"><img src="" alt="" id="basket-product-image-3"></div>
+                    </div>
+                    <div class="cell">
+                        <h3>FLORAL PLIMSOL</h3>
+                        <p class="basket-product-ref">Ref. 8246/044</p>
+                    </div>
+                    <div class="cell cell-3">
+                        <p id="basket-product-color-3">Black</p>
+                    </div>
+                    <div class="cell cell-4">
+                        <p id="basket-product-size-3">M</p>
+                    </div>
+                    <div class="cell cell-5">
+                        <input type="number" min="0" max="999" step="1" id="basket-product-quantity-3" value="1">
+                    </div>
+                    <div class="cell cell-6">
+                        <p><span>&euro;</span><span id="basket-product-amount-3">99,99</span></p>
+                    </div>
+                    <div class="cell cell-7 delete-btn">
+                        <img src="img/delete-btn.jpg" alt="delete-bnt" height="14" width="14">
+                    </div>
+                </div>
+
+            </div>
+            <div class="subtotal-container">
+
+                <span>Subtotal:</span>
+                <span id="basket-subtotal-value">1000$</span>
+            </div>
+            <div class="order-container">
+                <span><a href="">Continue shopping</a></span>
+                <button class="ui-button" id="basket-order-now-btn">ORDER NOW</button>
+            </div>
+            <footer> <!--FOOTER BEGIN -->
+                <nav class="breadcrumb-navigation">
+                    <ul class="breadcrumb-navigation-list">
+                        <li><a>COLLECTION</a></li>
+                        <li><a>Woman</a></li>
+                        <li><a>Men</a></li>
+                        <li><a>Kids</a></li>
+                        <li><a>Coming soon</a></li>
+                    </ul>
+                    <ul class="breadcrumb-navigation-list">
+                        <li><a>SITE</a></li>
+                        <li><a>Terms of service</a></li>
+                        <li><a>Private policy</a></li>
+                        <li><a>Copyright policy</a></li>
+                        <li><a>Press kit</a></li>
+                        <li><a>Support</a></li>
+                    </ul>
+                    <ul class="breadcrumb-navigation-list">
+                        <li><a>SHOP</a></li>
+                        <li><a>About us</a></li>
+                        <li><a>Shipping methods</a></li>
+                        <li><a>Career</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                    <ul class="breadcrumb-navigation-list">
+                        <li>SOCIAL</li>
+                        <li><a href="">Shop  is made with love in Warsaw, <br> 2014 &copy; All rights reserved. El. Passion</a></li>
+                        <li class="social-btns"><a href=""><img src="img/twitter-icon.jpg" alt="twitter-icon"></a></li>
+                        <li class="social-btns"><a href=""><img src="img/facebook-icon.jpg" alt="facebook-icon"></a></li>
+                        <li class="social-btns"><a href=""><img src="img/insta-icon.jpg" alt="insta-icon"></a></li>
+                    </ul>
+                </nav>
+            </footer> <!--FOOTER END-->
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

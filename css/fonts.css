@@ -1,0 +1,93 @@
+body{
+    font-family: Lato, serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #303030;
+}
+h1{
+    font-family: Lato, serif;
+    font-weight: normal;
+    font-size: 69px;
+    text-align: center;
+    line-height: 1.5;
+}
+.order-container span a{
+    font-size: 16px;
+    font-family: Lato, serif;
+    font-weight: normal;
+}
+h1.main-header{
+    margin-top: 125px;
+}
+div.subheaher-h1{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 24px;
+    color: #606060;
+    margin-top: 19px;
+    line-height: 1.45;
+    letter-spacing: 2px;
+
+}
+.subheader-h2{
+    font-size: 18px;
+    font-style: italic;
+    color: #606060;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+h2{
+    font-family: Lato, serif;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.subheader-h3 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #606060;
+    text-align: center;
+}
+
+.product-name{
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+.article-num-subheader{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: #a3a3a3;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+.product-description{
+    width: 580px;
+    font-style: normal;
+    text-align: center;
+    color: #606060;
+    letter-spacing: 0;
+    font-size: 15px;
+    margin: 30px auto 0;
+    line-height: 1.5;
+}
+.size-heading{
+    font-family: Lato, serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 40px;
+}
+p.basket-product-ref{
+    font-size: 12px;
+    color: #a3a3a3;
+    font-style: italic;
+}
