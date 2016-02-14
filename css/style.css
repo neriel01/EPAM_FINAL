@@ -188,16 +188,12 @@ div .subheader-h3{
 }
 .switcher-element{
     width: 220px;
-    vertical-align: top;
-    padding-top: 49px;
-    padding-bottom: 49px;
-    text-align: center;
+    height: 120px;
     background-color: #cccccc;
     box-sizing: border-box;
     color: #979797;
     font-family: Lato, serif;
     font-weight: bold;
-    font-size: 18px;
     border-left: 1px solid #979797;
 }
 .switcher-element:nth-child(2){
@@ -245,15 +241,19 @@ footer nav ul:first-child{
 footer{
     margin-top: 45px;
 }
-
+.flex-box-container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-box-container img{
+    max-height: 100%;
+    max-width: 100%;
+}
 .category-image-container{
     width: 210px;
     height: 255px;
     border: 1px solid #e5e5e5;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
 }
 .category-image-container img{
     max-height: 100%;
