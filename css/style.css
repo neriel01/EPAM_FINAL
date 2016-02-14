@@ -251,6 +251,9 @@ footer{
     max-width: 100%;
 }
 .category-image-container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 210px;
     height: 255px;
     border: 1px solid #e5e5e5;
