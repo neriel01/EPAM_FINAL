@@ -1,0 +1,23 @@
+@media all and (max-width: 1024px){
+    body{
+        width: 1024px   ;
+    }
+    .main-wrapper{
+        width: 1024px;
+    }
+    .main-container{
+        width: 1024px;
+
+    }
+    .content-container{
+        width: 975px;
+        margin: 0 auto;
+
+    }
+    .form-input{
+        width: 460px;
+    }
+    .switcher-element{
+        width: 170px;
+    }
+}
