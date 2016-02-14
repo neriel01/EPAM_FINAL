@@ -1,0 +1,28 @@
+@media all and (max-width: 768px) {
+    body, html {
+        width: 768px;
+    }
+
+    .main-wrapper {
+        width: 768px;
+    }
+
+    nav.header-navigation ul li,nav.header-navigation ul{
+        width: 100%;
+        display: block;
+
+    }
+
+    .main-container {
+        width: 768px;
+    }
+    .content-container{
+        width: 728px;
+    }
+    .sizes-switcher-container{
+        width: 100%;
+    }
+    .switcher-element:nth-child(5),.switcher-element:nth-child(6){
+        display: none;
+    }
+}

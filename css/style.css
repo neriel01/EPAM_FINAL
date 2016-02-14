@@ -38,6 +38,9 @@ a:hover{
 .header-navigation,.logo{
     display: inline-block;
 }
+.responsive-menu{
+    display: none;
+}
 .content-container{
     width: 1180px;
     margin: 0 auto;
@@ -93,6 +96,7 @@ header{
     margin-bottom: -5px;
 
 }
+
 .hr{
     border-bottom: 1px solid #e5e5e5;
 }
