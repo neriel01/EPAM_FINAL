@@ -32,7 +32,7 @@ a:hover{
     margin: 0 auto;
 }
 .main-wrapper{
-    width: 1440px;
+    width: 100%;
     background: #e5e5e5;
 }
 .header-navigation,.logo{

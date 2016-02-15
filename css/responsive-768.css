@@ -1,28 +1,171 @@
 @media all and (max-width: 768px) {
     body, html {
-        width: 768px;
-    }
-
-    .main-wrapper {
-        width: 768px;
-    }
-
-    nav.header-navigation ul li,nav.header-navigation ul{
         width: 100%;
+        font-size: 16px;
+    }
+    footer nav ul{
+        display: none;
+    }
+   footer nav ul:last-child{
         display: block;
-
+        max-width: 100%;
+       min-width: 100%;
+       text-align: center;
+       border: none;
+       padding-left: 0;
+    }
+   .social-btns{
+       margin-left: 15px;
+   }
+    .breadcrumb-navigation-list li:nth-child(3){
+        margin-left: 0;
     }
 
-    .main-container {
-        width: 768px;
+    .breadcrumb-navigation li{
+        margin-top: 40px;
     }
+   .made-in{
+       text-align: center;
+       font-size: 14px;
+   }
+    .form-input{
+        font-size: 14px;
+    }
+    .form-submit-btn{
+        padding: 21px 35px 18px 35px;
+    }
+    .main-wrapper {
+        width: 100%;
+    }
+    .main-container{
+        width: 100%;
+    }
+    h1{
+        font-size: 52px;
+
+    }
+    .gallery-tag-container h2{
+        font-size: 22px;
+        letter-spacing: 0;
+    }
+    .breadcrumb-navigation-list li:first-child,h2.sign-up-to,h2{
+        font-size: 25px;
+
+    }
+    .breadcrumb-navigation-list li:first-child{
+        margin-bottom: 50px;
+    }
+    span.subheader-h3{
+        line-height: 2;
+        font-size: 22px;
+    }
+    .subheader-h3{
+        font-size: 13px;
+    }
+    h1.main-header{
+        margin-top: 55px;
+    }
+    div.subheaher-h1{
+        margin-top: 27px;
+    }
+    header{
+        margin-bottom: 20px;
+    }
+    .logo{
+        padding: 22px 20px 22px 20px;
+        font-size: 16px;
+    }
+    #search-field{
+        font-size: 13px;
+    }
+    #check-new-arrivals{
+        display: none;
+    }
+    .search-container form input[type="submit"], .search-container form input[type="submit"]:hover{
+        padding: 15px 19px 13px 19px;
+    }
+    nav.header-navigation ul li,nav.header-navigation ul{
+       display: none;
+    }
+    h2.sign-up-to{
+        margin-top: 85px;
+    }
+    .sizes-switcher-container{
+        margin-top: 75px;
+    }
+    .responsive-menu{
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .responsive-menu, .responsive-menu nav ul li {
+        display: block;
+        text-align: center;
+
+    }
+    .responsive-menu nav ul li{
+        padding-top: 21px;
+        padding-bottom: 21px;
+        font-size: 16px;
+    }
+    .home-gallery{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .gallery-image-container{
+        display: inline-block;
+        width: 500px;
+        background: no-repeat center ;
+        background-size: 100% 100%;
+    }
+    #gallery-image-container-1,#gallery-image-container-2,#gallery-image-container-3,#gallery-image-container-4,#gallery-image-container-5,#gallery-image-container-6,#gallery-image-container-7,#gallery-image-container-8{
+        box-sizing: border-box;
+    }
+    #gallery-image-container-1{
+        height: 232px;
+    }
+    #gallery-image-container-2,#gallery-image-container-7{
+        height: 197px;
+    }
+    #gallery-image-container-3{
+        height: 150px;
+    }
+    #gallery-image-container-4{
+        height: 280px;
+    }
+  #gallery-image-container-2  .gallery-tag-container{
+        padding-top: 72px;
+        padding-bottom: 72px;
+
+    }
+    #gallery-image-container-4  .gallery-tag-container,#gallery-image-container-5  .gallery-tag-container,#gallery-image-container-8 .gallery-tag-container{
+        padding-top: 113px;
+        padding-bottom: 113px;
+
+    }
+    #gallery-image-container-7  .gallery-tag-container{
+        padding-top: 73px;
+        padding-bottom: 73px;
+    }
+
     .content-container{
         width: 728px;
+        padding-top: 20px;
     }
     .sizes-switcher-container{
         width: 100%;
     }
     .switcher-element:nth-child(5),.switcher-element:nth-child(6){
         display: none;
+    }
+    .breadcrumb-text-top{
+        display: block;
+        font-size: 14px;
+        text-align: center;
+    }
+    .category-container{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .category-item{
+        max-width: 220px;
     }
 }
