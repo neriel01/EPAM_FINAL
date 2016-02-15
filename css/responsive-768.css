@@ -42,7 +42,6 @@
     }
     h1{
         font-size: 52px;
-
     }
     .gallery-tag-container h2{
         font-size: 22px;
@@ -163,9 +162,12 @@
     }
     .category-container{
         width: 500px;
-        margin: 0 auto;
+        margin: 85px auto 0;
+        flex-wrap: wrap;
     }
     .category-item{
-        max-width: 220px;
+
+       width:   220px;
+        max-width: inherit;
     }
 }
