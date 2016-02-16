@@ -135,7 +135,9 @@ header {
     margin-left: 20px;
 }
 
-.basket-image-container, .search-container, .basket-image {
+.basket-image-container,
+.search-container,
+.basket-image {
     display: inline-block;
 }
 
@@ -197,8 +199,7 @@ div .subheader-h3 {
     margin-top: 15px;
 }
 
-.gallery-tag-container
-.subheader-h3 {
+.gallery-tag-container .subheader-h3 {
     color: white;
 }
 

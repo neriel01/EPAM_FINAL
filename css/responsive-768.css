@@ -59,7 +59,9 @@
         letter-spacing: 0;
     }
 
-    .breadcrumb-navigation-list li:first-child, h2.sign-up-to, h2 {
+    .breadcrumb-navigation-list li:first-child,
+    h2.sign-up-to,
+    h2 {
         font-size: 25px;
     }
 
@@ -101,11 +103,13 @@
         display: none;
     }
 
-    .search-container form input[type="submit"], .search-container form input[type="submit"]:hover {
+    .search-container form input[type="submit"],
+    .search-container form input[type="submit"]:hover {
         padding: 15px 19px 13px 19px;
     }
 
-    nav.header-navigation ul li, nav.header-navigation ul {
+    nav.header-navigation ul li,
+    nav.header-navigation ul {
         display: none;
     }
 
@@ -121,7 +125,8 @@
         border-bottom: 1px solid #e5e5e5;
     }
 
-    .responsive-menu, .responsive-menu nav ul li {
+    .responsive-menu,
+    .responsive-menu nav ul li {
         display: block;
         text-align: center;
     }
@@ -144,7 +149,14 @@
         background-size: 100% 100%;
     }
 
-    #gallery-image-container-1, #gallery-image-container-2, #gallery-image-container-3, #gallery-image-container-4, #gallery-image-container-5, #gallery-image-container-6, #gallery-image-container-7, #gallery-image-container-8 {
+    #gallery-image-container-1,
+    #gallery-image-container-2,
+    #gallery-image-container-3,
+    #gallery-image-container-4,
+    #gallery-image-container-5,
+    #gallery-image-container-6,
+    #gallery-image-container-7,
+    #gallery-image-container-8 {
         box-sizing: border-box;
     }
 
@@ -152,7 +164,8 @@
         height: 232px;
     }
 
-    #gallery-image-container-2, #gallery-image-container-7 {
+    #gallery-image-container-2,
+    #gallery-image-container-7 {
         height: 197px;
     }
 
@@ -164,12 +177,15 @@
         height: 280px;
     }
 
-    #gallery-image-container-2 .gallery-tag-container {
+    #gallery-image-container-2
+    .gallery-tag-container {
         padding-top: 72px;
         padding-bottom: 72px;
     }
 
-    #gallery-image-container-4 .gallery-tag-container, #gallery-image-container-5 .gallery-tag-container, #gallery-image-container-8 .gallery-tag-container {
+    #gallery-image-container-4 .gallery-tag-container,
+    #gallery-image-container-5 .gallery-tag-container,
+    #gallery-image-container-8 .gallery-tag-container {
         padding-top: 113px;
         padding-bottom: 113px;
     }
@@ -180,15 +196,17 @@
     }
 
     .content-container {
-        width: 728px;
-        padding-top: 20px;
+        width: 100%;
+        padding: 20px 10px 50px;
+        box-sizing: border-box;
     }
 
     .sizes-switcher-container {
         width: 100%;
     }
 
-    .switcher-element:nth-child(5), .switcher-element:nth-child(6) {
+    .switcher-element:nth-child(5),
+    .switcher-element:nth-child(6) {
         display: none;
     }
 
@@ -208,4 +226,82 @@
         width: 220px;
         max-width: inherit;
     }
+    .product-images-container {
+        width: 350px;
+        position: relative;
+        height: 250px;
+        margin: 50px auto 50px;
+    }
+
+    .product-image-big img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    span.subheader-h3{
+        font-size: 24px;
+    }
+
+    #add-to-cart-btn{
+        width: 400px;
+        font-size: 16px;
+    }
+    h3.size-heading{
+        margin-top: 36px;
+    }
+    .product-description{
+        margin-top: 40px;
+    }
+
+    .product-image-big{
+        height: 100%;
+    }
+
+    .product-images-mini{
+        position: absolute;
+        height: 100%;
+        width: auto;
+    }
+
+    .product-images-mini div{
+        width: 60px;
+        height: 60px;
+    }
+    .product-image-big {
+        width: 77.7179487%;
+    }
+    .row{
+        display: block;
+        vertical-align: top;
+    }
+    .row > * {
+        vertical-align: top;
+    }
+    .headers{
+        display: none;
+    }
+    .table{
+        display: block;
+    }
+    .column{
+        display: inline-block;
+        width: auto;
+        padding: 0;
+    }
+
+    .basket-product-image{
+        display: inline-block;
+    }
+
+    .column-3,
+    .column-4,
+    .column-5,
+    .column-6,
+    .column-7{
+        display: inline-block;
+        width: 50%;
+    }
+
+
+
 }
