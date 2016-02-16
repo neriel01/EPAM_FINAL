@@ -14,7 +14,6 @@
     .content-container {
         width: 975px;
         margin: 0 auto;
-
     }
 
     .form-input {
@@ -23,7 +22,6 @@
 
     .sizes-switcher-container {
         max-width: 975px;
-
     }
 
     .switcher-element {
@@ -37,7 +35,8 @@
     .category-image-container {
         width: inherit;
     }
-    .product-image-big{
+
+    .product-image-big {
         width: 875px;
     }
 }

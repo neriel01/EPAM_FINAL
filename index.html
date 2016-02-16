@@ -3,23 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/common/jquery.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="css/responsive-1024.css">
     <link rel="stylesheet" href="css/responsive-768.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet' type='text/css'>
-    <script src="js/search.js"></script>
-    <script src="js/common/gallery.js"></script>
+    <link rel="stylesheet" href="css/font-imports.css">
     <title>index</title>
-    <script>
-        $("*").each(function() {
-            if ($(this).width() > 1024) {
-                console.log(this.tagName + "." + this.className);
-            }
-        });
-    </script>
 </head>
 <body onload="load_images()">
 <div class="main-wrapper">
@@ -30,19 +19,20 @@
                     <div class="logo">SH</div>
                     <nav class="header-navigation">
                         <ul>
-                            <li><a href="">Woman</a></li>
-                            <li><a href="">Men</a></li>
-                            <li><a href="">Kids</a></li>
-                            <li><a href="">Coming soon</a></li>
+                            <li><a href="#">Woman</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Kids</a></li>
+                            <li><a href="#">Coming soon</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="header-rght rght">
-                  <div class="search-container">
-                      <form action="">
-                          <input type="search" id="search-field" required placeholder="Search something..."><input type="submit" name="submit-search"  id="submit-search" value=" ">
-                      </form>
-                  </div>
+                    <div class="search-container">
+                        <form action="">
+                            <input type="search" id="search-field" required placeholder="Search something..."><input
+                                type="submit" name="submit-search" id="submit-search" value=" ">
+                        </form>
+                    </div>
                     <div class="basket-image-container">
                         <div class="basket-image"></div>
                         <span>Basket</span>
@@ -55,29 +45,61 @@
             <div class="responsive-menu">
                 <nav>
                     <ul>
-                        <li><a href="">Woman</a></li>
-                        <li><a href="">Men</a></li>
-                        <li><a href="">Kids</a></li>
-                        <li><a href="">Coming soon</a></li>
+                        <li><a href="#">Woman</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Coming soon</a></li>
                     </ul>
                 </nav>
             </div>
             <!--i was unnabble to style the hr element so I used div with border-bottom property-->
             <h1 class="main-header">HAZY SHADE OF SPRING</h1>
+
             <div class="subheaher-h1">Quis que lorem tortor fringilla sed vistubulum id eilfed justoss</div>
             <div class="button-container">
                 <button id="check-new-arrivals">CHECK NEW ARRIVALS</button>
             </div>
-            <div class="home-gallery"><div id="gallery-image-container-1" class="gallery-image-container "></div><div id="gallery-image-container-2" class="gallery-image-container with-tag "><div class="gallery-tag-container"><h2>ELEGANT SHOES</h2><span class="subheader-h3">BRAIDED LEATHER</span></div></div><div id="gallery-image-container-3" class="gallery-image-container"></div><div id="gallery-image-container-4" class="gallery-image-container with-tag"><div class="gallery-tag-container"><h2>ELEGANT SHOES</h2><span class="subheader-h3">BRAIDED LEATHER</span></div></div><div id="gallery-image-container-5" class="gallery-image-container with-tag"><div class="gallery-tag-container"><h2>ELEGANT SHOES</h2><span class="subheader-h3">BRAIDED LEATHER</span></div></div><div id="gallery-image-container-6" class="gallery-image-container"></div><div id="gallery-image-container-7" class="gallery-image-container with-tag"><div class="gallery-tag-container"><h2>ELEGANT SHOES</h2><span class="subheader-h3">BRAIDED LEATHER</span></div></div><div id="gallery-image-container-8" class="gallery-image-container"></div></div>
+            <div class="home-gallery">
+                <div id="gallery-image-container-1" class="gallery-image-container "></div>
+                <div id="gallery-image-container-2" class="gallery-image-container with-tag ">
+                    <div class="gallery-tag-container"><h2>ELEGANT SHOES</h2><span
+                            class="subheader-h3">BRAIDED LEATHER</span></div>
+                </div>
+                <div id="gallery-image-container-3" class="gallery-image-container"></div>
+                <div id="gallery-image-container-4" class="gallery-image-container with-tag">
+                    <div class="gallery-tag-container"><h2>ELEGANT SHOES</h2><span
+                            class="subheader-h3">BRAIDED LEATHER</span></div>
+                </div>
+                <div id="gallery-image-container-5" class="gallery-image-container with-tag">
+                    <div class="gallery-tag-container"><h2>ELEGANT SHOES</h2><span
+                            class="subheader-h3">BRAIDED LEATHER</span></div>
+                </div>
+                <div id="gallery-image-container-6" class="gallery-image-container"></div>
+                <div id="gallery-image-container-7" class="gallery-image-container with-tag">
+                    <div class="gallery-tag-container"><h2>ELEGANT SHOES</h2><span
+                            class="subheader-h3">BRAIDED LEATHER</span></div>
+                </div>
+                <div id="gallery-image-container-8" class="gallery-image-container"></div>
+            </div>
             <h2 class="sign-up-to">SIGN UP TO RECEIVE OUR UPDATES</h2>
-            <div class="subheader-h3">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</div>
+
+            <div class="subheader-h3">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+                adipisci velit
+            </div>
             <div class="add-email-container">
                 <form action="">
-                    <input type="email" name="email" placeholder="Your e-mail" class="form-input" required><!--add validator--><input type="submit" value="add" class="form-submit-btn">
+                    <input type="email" name="email" placeholder="Your e-mail" class="form-input" required>
+                    <!--add validator--><input type="submit" value="add" class="form-submit-btn">
                 </form>
             </div>
             <div class="sizes-switcher-container flex-box-container"> <!-- aaa-->
-                <div class="arrow-left lft"></div><div class="switcher-element flex-box-container"><img src="http://lorempixel.com/200/120/" alt=""></div><div class="switcher-element flex-box-container"><img src="http://lorempixel.com/200/120/" alt=""></div><div class="switcher-element flex-box-container"><img src="http://lorempixel.com/200/120/" alt=""></div><div class="switcher-element flex-box-container"><img src="http://lorempixel.com/200/120/" alt=""></div><div class="switcher-element flex-box-container"><img src="http://lorempixel.com/200/120/" alt=""></div><div class="arrow-right"></div> <!-- aaa-->
+                <div class="arrow-left lft"></div>
+                <div class="switcher-element flex-box-container"><img src="http://lorempixel.com/200/120/" alt=""></div>
+                <div class="switcher-element flex-box-container"><img src="http://lorempixel.com/200/120/" alt=""></div>
+                <div class="switcher-element flex-box-container"><img src="http://lorempixel.com/200/120/" alt=""></div>
+                <div class="switcher-element flex-box-container"><img src="http://lorempixel.com/200/120/" alt=""></div>
+                <div class="switcher-element flex-box-container"><img src="http://lorempixel.com/200/120/" alt=""></div>
+                <div class="arrow-right"></div> <!-- aaa-->
             </div>
             <footer> <!--FOOTER BEGIN -->
                 <nav class="breadcrumb-navigation">
@@ -105,15 +127,18 @@
                     </ul>
                     <ul class="breadcrumb-navigation-list">
                         <li>SOCIAL</li>
-                        <li class="made-in"><a href="">Shop  is made in Warsaw with love,<br> 2014 &copy; All rights reserved. El. Passion</a></li>
-                        <li class="social-btns"><a href=""><img src="img/twitter-icon.jpg" alt="twitter-icon"></a></li>
-                        <li class="social-btns"><a href=""><img src="img/facebook-icon.jpg" alt="facebook-icon"></a></li>
-                        <li class="social-btns"><a href=""><img src="img/insta-icon.jpg" alt="insta-icon"></a></li>
+                        <li class="made-in"><a href="#">Shop is made in Warsaw with love,<br> 2014 &copy; All rights
+                            reserved. El. Passion</a></li>
+                        <li class="social-btns"><a href="#"><img src="img/twitter-icon.jpg" alt="twitter-icon"></a></li>
+                        <li class="social-btns"><a href="#"><img src="img/facebook-icon.jpg" alt="facebook-icon"></a>
+                        </li>
+                        <li class="social-btns"><a href="#"><img src="img/insta-icon.jpg" alt="insta-icon"></a></li>
                     </ul>
                 </nav>
             </footer> <!--FOOTER END-->
         </div>
     </div>
 </div>
+<script src="js/gallery.js"></script>
 </body>
 </html>
