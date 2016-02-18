@@ -28,6 +28,17 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+
+#add-to-cart-btn, .ui-button {
+    font-size: 11px;
+    color: white;
+    width: 174px;
+    padding: 22px 0 22px 0;
+    border: none;
+    background: #f68236;
+    margin: 0 auto;
 }
 
 .lft {
@@ -77,6 +88,10 @@ a:hover {
     background: #222222;
     color: white;
 }
+.basket-image-container{
+   position: relative;
+    top: 13px
+}
 
 header {
     margin-bottom: 40px;
@@ -90,23 +105,50 @@ header {
 .header-rght {
     margin-right: 35px;
 }
+.search-container form{
+    vertical-align: bottom;
+}
 
 #search-field {
     font-family: Lato, serif;
     font-style: italic;
     font-size: 11px;
     padding: 12px 13px 12px 13px;
+    width: 152px;
 }
 
-.search-container form input[type="search"] {
-    width: 152px;
+.search-container form input{
+    display: inline-block;
+    vertical-align: top;
 }
 
 .search-container form input[type="submit"],
 .search-container form input[type="submit"]:hover {
     background-size: 45% 45%;
-    padding: 10px 17px 10px 17px;
+    padding: 13px 17px 12px 17px;
     border: 1px solid #959595;
+    height: 41px;
+    box-sizing: border-box;
+}
+
+#images-container{
+    font-size: 0;
+    overflow: hidden;
+    width: 1100px;
+    height: 120px;
+    white-space: nowrap;
+}
+#images-container *{
+
+}
+#mover{
+    width: 1px;
+    box-sizing: border-box;
+    height: 1px;
+}
+.arrow-right,
+.arrow-left{
+    overflow: hidden;
 }
 
 .search-container form input[type="submit"] {
@@ -225,6 +267,7 @@ div .subheader-h3 {
 
 .sizes-switcher-container {
     margin-top: 45px;
+    overflow: hidden;
 }
 
 .arrow-left,
@@ -261,6 +304,10 @@ div .subheader-h3 {
 .switcher-element:nth-child(2) {
     border-left: none;
 }
+footer nav div{
+    width: 23.5%;
+    display: inline-block;
+}
 
 .breadcrumb-navigation li {
     display: block;
@@ -269,16 +316,7 @@ div .subheader-h3 {
 }
 
 .breadcrumb-navigation-list {
-    width: 23.5%;
     vertical-align: top;
-    border-left: 1px solid #cccccc;
-    padding-left: 15px;
-}
-
-.breadcrumb-navigation-list li:first-child {
-    font-weight: bold;
-    font-size: 16px;
-    margin-top: 0;
 }
 
 .social-btns {
@@ -302,9 +340,13 @@ div .subheader-h3 {
     margin-top: 50px;
 }
 
-footer nav ul:first-child {
+footer nav div:first-child {
     padding-left: 0;
     border-left: none;
+}
+footer nav div{
+    border-left: 1px solid #e5e5e5;
+    padding-left: 15px;
 }
 
 footer {
@@ -428,16 +470,6 @@ footer {
     margin-bottom: 100px;
 }
 
-#add-to-cart-btn, .ui-button {
-    font-size: 11px;
-    color: white;
-    width: 174px;
-    padding: 22px 0 22px 0;
-    border: none;
-    background: #f68236;
-    margin: 0 auto;
-}
-
 #add-to-cart-btn:hover, .ui-button:hover {
     background: #e67429;
 }
@@ -489,8 +521,14 @@ input[type="number"] {
 }
 
 #basket-subtotal-value {
-    margin-left: 55px;
+    margin-left: 50px;
     color: #f68236;
+}
+
+.delete-btn{
+    padding-left: 20px;
+    box-sizing: border-box;
+
 }
 
 #basket-order-now-btn {

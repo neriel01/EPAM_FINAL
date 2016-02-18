@@ -1,0 +1,8 @@
+.search-animation{
+    transition: width,border;
+    transition-duration: 1s;
+}
+.slider-animation{
+    transition-property: margin-right;
+    transition-duration: 1s;
+}

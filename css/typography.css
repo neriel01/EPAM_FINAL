@@ -1,28 +1,41 @@
-body{
+body {
     font-family: Lato, serif;
     font-weight: normal;
     font-size: 14px;
     color: #303030;
 }
-.made-in{
+
+.made-in {
     font-size: 14px;
 }
-h1{
+
+h1 {
     font-family: Lato, serif;
     font-weight: normal;
     font-size: 69px;
     text-align: center;
     line-height: 1.5;
 }
-.order-container span a{
+
+h4 {
+    font-weight: bold;
+    font-size: 16px;
+    width: 23.5%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.order-container span a {
     font-size: 16px;
     font-family: Lato, serif;
     font-weight: normal;
 }
-h1.main-header{
+
+h1.main-header {
     margin-top: 125px;
 }
-div.subheaher-h1{
+
+div.subheaher-h1 {
     text-align: center;
     font-family: Georgia, serif;
     font-style: italic;
@@ -33,14 +46,16 @@ div.subheaher-h1{
     letter-spacing: 2px;
 
 }
-.subheader-h2{
+
+.subheader-h2 {
     font-size: 18px;
     font-style: italic;
     color: #606060;
     font-family: Georgia, serif;
     text-align: center;
 }
-h2{
+
+h2 {
     font-family: Lato, serif;
     font-weight: bold;
     font-size: 34px;
@@ -48,6 +63,7 @@ h2{
     text-align: center;
     letter-spacing: 3px;
 }
+
 .subheader-h3 {
     font-family: Georgia, serif;
     font-style: italic;
@@ -56,14 +72,15 @@ h2{
     text-align: center;
 }
 
-.product-name{
+.product-name {
     font-weight: bold;
     font-size: 15px;
     display: inline-block;
     margin-top: 15px;
     margin-bottom: 7px;
 }
-.article-num-subheader{
+
+.article-num-subheader {
     text-align: center;
     font-size: 15px;
     font-style: italic;
@@ -71,7 +88,8 @@ h2{
     margin-top: 20px;
     margin-bottom: 27px;
 }
-.product-description{
+
+.product-description {
     width: 580px;
     font-style: normal;
     text-align: center;
@@ -81,7 +99,8 @@ h2{
     margin: 30px auto 0;
     line-height: 1.5;
 }
-.size-heading{
+
+.size-heading {
     font-family: Lato, serif;
     font-weight: bold;
     font-size: 14px;
@@ -89,7 +108,8 @@ h2{
     margin-top: 26px;
     margin-bottom: 40px;
 }
-p.basket-product-ref{
+
+p.basket-product-ref {
     font-size: 12px;
     color: #a3a3a3;
     font-style: italic;

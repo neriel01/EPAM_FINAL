@@ -1,0 +1,45 @@
+@media all and (max-width: 474px) {
+    .header-rght{
+        margin-right: 0;
+    }
+
+    .made-in{
+        font-size: 16px;
+    }
+
+    .category-container{
+        width: 100%;
+    }
+
+    .category-item{
+        width: 165px;
+        padding-bottom: 50px;
+    }
+
+    #add-to-cart-btn{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .check-lookbook{
+        display: none;
+    }
+
+    .product-description{
+        width: 100%;
+    }
+
+    .basket-image-container{
+        margin-left: 5px;
+    }
+
+    .add-email-container{
+        width: 100%;
+    }
+
+    .form-input{
+        width: 50%
+    }
+
+
+}

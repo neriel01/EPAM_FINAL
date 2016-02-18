@@ -26,12 +26,9 @@
     }
 
     .sizes-switcher-container {
-        max-width: 975px;
+        width: 100%;
     }
 
-    .switcher-element {
-        width: 185px;
-    }
 
     .category-item {
         max-width: 170px;
@@ -43,5 +40,19 @@
 
     .product-image-big {
         width: 87.7179487%;
+    }
+
+}
+
+@media all and (max-width: 920px) {
+    .gallery-tag-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media all and (max-width: 1013px) {
+    footer nav div{
+        width: 22%;
     }
 }
