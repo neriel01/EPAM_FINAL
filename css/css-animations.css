@@ -6,3 +6,7 @@
     transition-property: margin-right;
     transition-duration: 1s;
 }
+.add-to-cart-animation{
+    transition: background-color;
+    transition-duration: 1s;
+}

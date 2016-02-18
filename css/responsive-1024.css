@@ -21,14 +21,14 @@
     .form-input {
         width: 460px;
     }
-    .product-images-container{
+
+    .product-images-container {
         width: 100%;
     }
 
     .sizes-switcher-container {
         width: 100%;
     }
-
 
     .category-item {
         max-width: 170px;
@@ -45,14 +45,23 @@
 }
 
 @media all and (max-width: 920px) {
-    .gallery-tag-container{
+    .gallery-tag-container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .product-image-big {
+        width: 80.7179487%;
     }
 }
 
 @media all and (max-width: 1013px) {
-    footer nav div{
+    footer nav div {
         width: 22%;
+    }
+}
+
+@media all and (max-width: 845px) {
+    .header-navigation ul li {
+        margin-left: 37px;
     }
 }
